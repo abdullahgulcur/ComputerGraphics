@@ -33,7 +33,29 @@ else
        return height;
 
 Then we get a curve like this:
+<img src="pics/thres.png" width = "378" height = "130">
 
+### Adding Sea
+<img src="pics/watery.png" width = "1348" height = "596">
 
+I have coded my own shader to get sea. I will not explain how I did in this part but we explain briefly later on.
+
+### Adding Vegetation and Natural Objects
+<img src="pics/last.png" width = "1612" height = "904">
+
+The other challenging part was adding vegetation objects. To remind, vegetation objects are modelled with blender 2.8. They spawned still using perlin noise algorithm. If you ever observe grasses in real life, we can see small grasses around bigger bushes. But how we will implement that? It is quite simple. Recall that we can generate mountains with perlin noise. We ignore values below threshold value and spawn bigger bushes at peak points of our signal. The picture below helps you to understand algorithm clearly.
+
+<img src="pics/bushthre.png" width = "521" height = "149">
+
+### Desert
+
+<img src="pics/desert_1.png" width = "1612" height = "908">
+
+### SeaSide
+
+<img src="pics/wp" width = "1618" height = "907">
+
+## Conclusion
+To sum up, perlin noise is a very powerful and basic algorithm in industry of games, films, art… We can manipulate it with adding, scaling, giving threshold values and more on to the noise signal.
 
 
