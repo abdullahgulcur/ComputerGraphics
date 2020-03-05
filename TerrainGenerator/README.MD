@@ -53,7 +53,7 @@ The other challenging part was adding vegetation objects. To remind, vegetation 
 
 ### SeaSide
 
-<img src="pics/wp" width = "1618" height = "907">
+<img src="pics/wp.png" width = "1618" height = "907">
 
 ## Conclusion
 To sum up, perlin noise is a very powerful and basic algorithm in industry of games, films, art… We can manipulate it with adding, scaling, giving threshold values and more on to the noise signal.
