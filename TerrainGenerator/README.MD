@@ -50,6 +50,9 @@ The other challenging part was adding vegetation objects. To remind, vegetation 
 ### Desert
 
 <img src="pics/desert_1.png" width = "1612" height = "908">
+<img src="pics/grgr.png" width = "1612" height = "904">
+<img src="pics/des.png" width = "1616" height = "906">
+
 
 ### SeaSide
 
