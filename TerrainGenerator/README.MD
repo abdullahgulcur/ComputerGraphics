@@ -13,10 +13,10 @@ As you can see here we get procedural mountain like shape with specific material
 
 #### Octaves:
 Simple perlin noise algorithm looks like this in one dimension (With different height and scale values)
-<img src="pics/octave01.png" width = "491" height = "256">
+<img src="pics/octave01.png" width = "550" height = "281">
 
 As you can see, we can change height and scale values of signal. If we add them all, we get something like this:
-<img src="pics/octave02.png" width = "368" height = "288">
+<img src="pics/octave02.png" width = "350" height = "270">
 
 If we apply this in our terrain
 <img src="pics/terrain_.png" width = "886" height = "374">
@@ -35,7 +35,7 @@ else
        return height;
 
 Then we get a curve like this:
-<img src="pics/thres.png" width = "378" height = "130">
+<img src="pics/thres.png" width = "416" height = "146">
 
 ### Adding Sea
 <img src="pics/watery.png" width = "809" height = "358">
