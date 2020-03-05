@@ -7,7 +7,7 @@ In this project I made my own procedural terrain generator in Unity3D and explai
 Apply perlin noise algorithm to generate procedural mountains/hills.
 Assign material controlled by a specific shader to the mesh. (In this part I coded my own shader)
 #### Result:
-<img src="pics/doc_t_0.png" width = "920" height = "843">
+<img src="pics/doc_t_0.png" width = "920" height = "483">
 
 As you can see here we get procedural mountain like shape with specific material. In our shader, it chooses different texture for each vertex depending on steepness of terrain with vertex coloring method. But result is not something we want. We want to have much realistic looking terrain. In this case we use different method.
 
