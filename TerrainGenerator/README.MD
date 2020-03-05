@@ -16,8 +16,8 @@ Simple perlin noise algorithm looks like this in one dimension (With different h
 <img src="pics/octave01.png" width = "768" height = "400">
 
 As you can see, we can change height and scale values of signal. If we add them all, we get something like this:
-<img src="pics/terrain_.png" width = "256" height = "200">
-If we apply this in our terrain:
+<img src="pics/octave02.png" width = "256" height = "200">
+If we apply this in our terrain
 <img src="pics/terrain_.png" width = "1612" height = "680">
 Yes..! It looks much better than before. So perlin noise is a simple and powerful algorithm but not enough if we use it alone. We need to make some changes like adding, scaling… on it.  
 
