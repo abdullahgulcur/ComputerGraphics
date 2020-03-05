@@ -1,4 +1,4 @@
-## TERRAIN GENERATOR
+## PROCEDURAL TERRAIN GENERATOR
 In game industry, AAA game companies prepares their own tools for generating terrains. For example game called “No Man’s Sky” generates procedural planets. Procedural generation meaning by the way is a method of creating data algorithmically as opposed to manually, typically through a combination of human-generated assets and algorithms coupled with computer-generated randomness and processing power. In computer graphics, it is commonly used to create textures and 3D models. Example video about procedural generation from “No Man’s Sky”: https://www.youtube.com/watch?v=PM7ArMxUFR0&feature=emb_title
 
 In this project I made my own procedural terrain generator in Unity3D and explain how it works below. Let’s get start!
