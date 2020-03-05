@@ -13,7 +13,7 @@ As you can see here we get procedural mountain like shape with specific material
 
 #### Octaves:
 Simple perlin noise algorithm looks like this in one dimension (With different height and scale values)
-<img src="pics/octave01.png" width = "768 * 0.8" height = "400 * 0.8">
+<img src="pics/octave01.png" width = "614" height = "320">
 
 As you can see, we can change height and scale values of signal. If we add them all, we get something like this:
 <img src="pics/octave02.png" width = "256" height = "200">
