@@ -16,9 +16,9 @@ Simple perlin noise algorithm looks like this in one dimension (With different h
 <img src="pics/octave01.png" width = "614" height = "320">
 
 As you can see, we can change height and scale values of signal. If we add them all, we get something like this:
-<img src="pics/octave02.png" width = "256" height = "200">
+<img src="pics/octave02.png" width = "307" height = "240">
 If we apply this in our terrain
-<img src="pics/terrain_.png" width = "1612" height = "680">
+<img src="pics/terrain_.png" width = "806" height = "340">
 Yes..! It looks much better than before. So perlin noise is a simple and powerful algorithm but not enough if we use it alone. We need to make some changes like adding, scaling… on it.  
 
 ### Adding Sea Threshold Value:
@@ -36,12 +36,12 @@ Then we get a curve like this:
 <img src="pics/thres.png" width = "378" height = "130">
 
 ### Adding Sea
-<img src="pics/watery.png" width = "1348" height = "596">
+<img src="pics/watery.png" width = "809" height = "358">
 
 I have coded my own shader to get sea. I will not explain how I did in this part but we explain briefly later on.
 
 ### Adding Vegetation and Natural Objects
-<img src="pics/last.png" width = "1612" height = "904">
+<img src="pics/last.png" width = "806" height = "452">
 
 The other challenging part was adding vegetation objects. To remind, vegetation objects are modelled with blender 2.8. They spawned still using perlin noise algorithm. If you ever observe grasses in real life, we can see small grasses around bigger bushes. But how we will implement that? It is quite simple. Recall that we can generate mountains with perlin noise. We ignore values below threshold value and spawn bigger bushes at peak points of our signal. The picture below helps you to understand algorithm clearly.
 
@@ -49,14 +49,14 @@ The other challenging part was adding vegetation objects. To remind, vegetation 
 
 ### Desert
 
-<img src="pics/desert_1.png" width = "1612" height = "908">
-<img src="pics/grgr.png" width = "1612" height = "904">
-<img src="pics/des.png" width = "1616" height = "906">
+<img src="pics/desert_1.png" width = "806" height = "454">
+<img src="pics/grgr.png" width = "806" height = "452">
+<img src="pics/des.png" width = "808" height = "453">
 
 
 ### SeaSide
 
-<img src="pics/wp.png" width = "1618" height = "907">
+<img src="pics/wp.png" width = "809" height = "454">
 
 ## Conclusion
 To sum up, perlin noise is a very powerful and basic algorithm in industry of games, films, art… We can manipulate it with adding, scaling, giving threshold values and more on to the noise signal.
