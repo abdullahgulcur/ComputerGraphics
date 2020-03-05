@@ -7,22 +7,24 @@ In this project I made my own procedural terrain generator in Unity3D and explai
 Apply perlin noise algorithm to generate procedural mountains/hills.
 Assign material controlled by a specific shader to the mesh. (In this part I coded my own shader)
 #### Result:
-<img src="pics/doc_t_0.png" width = "920" height = "483">
+<img src="pics/doc_t_0.png" width = "736" height = "386">
 
 As you can see here we get procedural mountain like shape with specific material. In our shader, it chooses different texture for each vertex depending on steepness of terrain with vertex coloring method. But result is not something we want. We want to have much realistic looking terrain. In this case we use different method.
 
 #### Octaves:
 Simple perlin noise algorithm looks like this in one dimension (With different height and scale values)
-<img src="pics/octave01.png" width = "614" height = "320">
+<img src="pics/octave01.png" width = "491" height = "256">
 
 As you can see, we can change height and scale values of signal. If we add them all, we get something like this:
-<img src="pics/octave02.png" width = "307" height = "240">
+<img src="pics/octave02.png" width = "368" height = "288">
+
 If we apply this in our terrain
-<img src="pics/terrain_.png" width = "806" height = "340">
+<img src="pics/terrain_.png" width = "886" height = "374">
+
 Yes..! It looks much better than before. So perlin noise is a simple and powerful algorithm but not enough if we use it alone. We need to make some changes like adding, scaling… on it.  
 
 ### Adding Sea Threshold Value:
-<img src="pics/doc_t_1.png" width = "907" height = "512">
+<img src="pics/doc_t_1.png" width = "816" height = "464">
 
 If we want to add sea to our terrain, we know that we should make our seas bigger to get realistic nature. When we give threshold value, heights that are lower than threshold will be calculated different than values above threshold.
 
